@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#resume">Resume</a></li>
@@ -36,14 +36,20 @@
 
     <main>
         <section id="about">
-            <h2>About Me</h2>
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
             <p>My name is Diego Rodriguez. I am a second-year law student at Fordham University School of Law, with a passion for sports and entertainment law, corporate law, intellectual property law, litigation, and transactional law. I am dedicated to pursuing a career at top-tier law firms in New York.</p>
         </section>
 
         <section id="resume">
-            <h2>Resume</h2>
+            <div class="section-header">
+                <h2>Resume</h2>
+                <div class="underline"></div>
+            </div>
             <p>You can view my resume below:</p>
-           <div id="pdf-viewer">
+            <div id="pdf-viewer">
                 <object data="Diego-Rodriguez-Resume-2024.pdf" type="application/pdf" width="100%" height="1200px">
                     <p>Your browser does not support PDFs. <a href="Diego-Rodriguez-Resume-2024.pdf">Download the PDF</a>.</p>
                 </object>
@@ -51,7 +57,10 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
             <form id="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>

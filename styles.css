@@ -12,19 +12,34 @@ header {
     text-align: center;
 }
 
-nav ul {
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #343a40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.navbar ul li {
+    margin: 0 15px;
 }
 
-nav ul li a {
+.navbar ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #007BFF;
 }
 
 .profile {
@@ -45,10 +60,34 @@ nav ul li a {
     margin: 0 10px;
     text-decoration: none;
     font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
 }
 
 main {
     padding: 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.section-header .underline {
+    width: 50px;
+    height: 4px;
+    background: #007BFF;
+    margin: 10px auto;
 }
 
 .resume-item {
@@ -86,6 +125,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 button:hover {
@@ -101,3 +141,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#pdf-viewer {
+    margin-top: 20px;
+    text-align: center

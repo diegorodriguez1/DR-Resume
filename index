@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Rodriguez | Law Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" 
+          crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="UpdatedPhoto.jpeg" alt="Diego Rodriguez">
+            <h1>Diego Rodriguez</h1>
+            <p>Law Student at Fordham University School of Law</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/diego-rodriguez-1031" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/dieggs_and_bacon/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/diego.rodriguez.188478" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/diegorodriguez1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Diego Rodriguez. I am a second-year law student at Fordham University School of Law, with a passion for sports and entertainment law, corporate law, intellectual property law, litigation, and transactional law. I am dedicated to pursuing a career at top-tier law firms in New York.</p>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <h3>Education</h3>
+            <div class="resume-item">
+                <h4>Fordham University School of Law</h4>
+                <p>Juris Doctor (J.D.) Candidate</p>
+                <span>August 2023 - May 2026</span>
+            </div>
+            <div class="resume-item">
+                <h4>California Polytechnic State University, San Luis Obispo</h4>
+                <p>Bachelor of Science in Kinesiology</p>
+                <span>September 2015 - December 2019</span>
+            </div>
+
+            <h3>Work Experience</h3>
+            <div class="resume-item">
+                <h4>Research Assistant</h4>
+                <p>Fordham University School of Law</p>
+                <span>June 2024 - Present</span>
+                <ul>
+                    <li>Conduct legal research on various topics relevant to ongoing projects.</li>
+                    <li>Analyze and summarize case law, statutes, and regulations.</li>
+                    <li>Assist in drafting legal memoranda and reports.</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h4>Audio Engineer</h4>
+                <p>SONOFANS/Fox Sports</p>
+                <span>May 2020 - August 2023</span>
+                <ul>
+                    <li>Set up, operated, and maintained audio equipment for live sports broadcasts.</li>
+                    <li>Worked with a team to ensure high-quality sound production for viewers.</li>
+                    <li>Performed sound checks and troubleshooting during live events.</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h4>Account Executive</h4>
+                <p>Valant Medical Solutions</p>
+                <span>November 2021 - August 2023</span>
+                <ul>
+                    <li>Managed client relationships and sales operations.</li>
+                    <li>Developed and executed sales strategies to achieve company goals.</li>
+                    <li>Provided product demonstrations and training to clients.</li>
+                </ul>
+            </div>
+
+            <h3>Volunteer Experience</h3>
+            <div class="resume-item">
+                <h4>North County Food Bank</h4>
+                <p>San Diego, CA</p>
+                <span>January 2019 - July 2023</span>
+                <ul>
+                    <li>Assisted in food distribution and logistics.</li>
+                    <li>Participated in community outreach programs.</li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h4>North County Adaptive Sports and Recreation Program</h4>
+                <p>San Luis Obispo, CA</p>
+                <span>January 2018 - December 2018</span>
+                <ul>
+                    <li>Helped organize and facilitate adaptive sports programs for individuals with disabilities.</li>
+                </ul>
+            </div>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>Legal Research and Writing</li>
+                <li>Case Analysis</li>
+                <li>Contract Review and Drafting</li>
+                <li>Public Speaking</li>
+                <li>Team Leadership</li>
+                <li>Project Management</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Diego Rodriguez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
